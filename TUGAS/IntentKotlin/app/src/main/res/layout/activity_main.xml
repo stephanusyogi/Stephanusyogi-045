@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/box">
+
+    <TextView
+        android:id="@+id/txtIntentUtama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Intent Utama"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/inputText1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/BtnIntent1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Intent 1"
+        android:background="@drawable/round"/>
+
+    <Button
+        android:id="@+id/BtnIntent2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Intent 2"
+        android:background="@drawable/round"/>
+
+</LinearLayout>

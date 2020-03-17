@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtdashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital Smart Masjid"
+                android:fontFamily="Arial"
+                android:textColor="#CEB8B8"
+                android:textStyle="bold|italic"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_below="@+id/txtdashboard"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assalamulaikum , Admin :)"
+                android:textColor="#BCD8CA"
+                android:textSize="18sp"/>
+
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/profil"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round">
+            <TextView
+                android:layout_below="@+id/txtdashboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:textAlignment="center"
+                android:text="Sistem Informasi\nSmart Masjid"
+                android:textColor="#E5F54B"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonidentitas"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/subround"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Identitas Masjid"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/buttonjadwal"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/subround"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Jadwal Sholat"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/buttonmarquee"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/subround"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Edit Marquee"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/buttonpengumuman"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/subround"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Pengumuman Masjid"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/buttonslideshow"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/subround"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Slideshow Masjid"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/buttontagline"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/subround"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Tagline Masjid"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
